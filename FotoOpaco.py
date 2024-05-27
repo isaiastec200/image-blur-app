@@ -5,6 +5,22 @@ import cv2
 from PIL import Image
 from io import BytesIO
 import zipfile
+import os
+import urllib.request
+
+# URL de download do modelo ONNX
+model_url = 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx'
+
+# Caminho de destino para salvar o modelo
+onnx_model_path = 'model/isnet-general-use.onnx'
+
+# Verificar se o arquivo já existe
+if not os.path.isfile(onnx_model_path):
+    # Baixar o modelo ONNX se não existir
+    urllib.request.urlretrieve(model_url, onnx_model_path)
+    print('Modelo ONNX baixado com sucesso!')
+else:
+    print('O arquivo do modelo ONNX já existe.')
 
 # Carregue o modelo ONNX
 onnx_model_path = 'model/isnet-general-use.onnx'
