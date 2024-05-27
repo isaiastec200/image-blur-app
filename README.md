@@ -1,5 +1,5 @@
 # image-blur-app
-Aplicativo de Desfoque de Imagens com Streamlit
+## Aplicativo de Desfoque de Imagens com Streamlit
 Visão Geral
 Este projeto tem como objetivo criar um aplicativo em Streamlit que reconhece objetos e pessoas em uma imagem e desfoca o fundo. A ideia é fornecer um serviço web onde os usuários possam facilmente desfocar o fundo de suas fotos. O aplicativo utiliza a biblioteca rembg e um modelo pré-treinado "isnet-general-use.onnx" para a remoção do fundo, seguido pela aplicação de um desfoque Gaussiano com OpenCV.
 
