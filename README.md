@@ -24,21 +24,25 @@ pip install -r requirements.txt
 ```
 Rodar app
 ```bash
-Copiar código
 streamlit run app.py
 ```
-Dependências
-Python 3.8+
-Streamlit
-ONNX Runtime
-NumPy
-OpenCV
-Pillow
-Uso
-Upload de Imagens
-Seleção do Nível de Desfoque
-Download das Imagens Processadas
-Trabalho Futuro
-Implantação em Serviço de Nuvem Robusto
-Melhoria da Experiência do Usuário
-## Referências: Silva, P. R. B. - "O objetivo da segmentação é evidenciar a região de interesse das imagens, removendo toda a informação desnecessária."
+
+## Dependências
+1.  Python 3.8+
+2. Streamlit
+3. ONNX Runtime
+4. NumPy
+5. OpenCV
+6. Pillow
+   
+## Uso
+
+1. **Upload de Imagens**
+2. **Seleção do Nível de Desfoque**
+3. **Download das Imagens Processadas**
+
+## Trabalho Futuro
+- Implantação em Serviço de Nuvem
+- Melhoria da Experiência do Usuário
+## Referências:
+Silva, P. R. B. - "O objetivo da segmentação é evidenciar a região de interesse das imagens, removendo toda a informação desnecessária."
