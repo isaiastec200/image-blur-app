@@ -12,7 +12,7 @@ import urllib.request
 model_url = 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx'
 
 # Caminho de destino para salvar o modelo
-onnx_model_path = 'model/isnet-general-use.onnx'
+onnx_model_path = 'isnet-general-use.onnx'
 
 # Verificar se o arquivo já existe
 if not os.path.isfile(onnx_model_path):
@@ -23,7 +23,7 @@ else:
     print('O arquivo do modelo ONNX já existe.')
 
 # Carregue o modelo ONNX
-onnx_model_path = 'model/isnet-general-use.onnx'
+onnx_model_path = 'isnet-general-use.onnx'
 session = onnxruntime.InferenceSession(onnx_model_path)
 
 def preprocess_image(image):
