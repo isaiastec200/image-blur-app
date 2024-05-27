@@ -1,30 +1,32 @@
 # Aplicativo de Desfoque de Imagens com Streamlit
+
 ## Visão Geral
 O projeto visa criar um aplicativo em Streamlit que reconhece objetos e pessoas em imagens, desfocando o fundo. Utiliza a biblioteca rembg e o modelo pré-treinado "isnet-general-use.onnx", seguido por desfoque Gaussiano com OpenCV.
 
 ## Funcionalidades
-Reconhecimento de Objetos e Pessoas
-Desfoque de Fundo
-Interface Web Amigável
-Como Funciona
-Upload de Imagens
-Pré-processamento da Imagem
-Remoção de Fundo
-Aplicação de Desfoque
-Download de Resultados
+- Reconhecimento de Objetos e Pessoas
+- Desfoque de Fundo
+- Interface Web Amigável
+
+## Como Funciona
+1. **Upload de Imagens**
+2. **Pré-processamento da Imagem**
+3. **Remoção de Fundo**
+4. **Aplicação de Desfoque**
+5. **Download de Resultados**
+   
 ## Instalação
 Clone o repositório e instale as dependências:
-
-bash
-Copiar código
+```bash
 git clone https://github.com/yourusername/image-blur-app.git
 cd image-blur-app
 pip install -r requirements.txt
-Execute o app Streamlit:
-
-bash
+```
+Rodar app
+```bash
 Copiar código
 streamlit run app.py
+```
 Dependências
 Python 3.8+
 Streamlit
