@@ -48,5 +48,9 @@ streamlit run app.py
 Silva, P. R. B. - "O objetivo da segmentação é evidenciar a região de interesse das imagens, removendo toda a informação desnecessária."
 
 ## Demostração
-![resultado_Imagem do WhatsApp de 2023-11-13 à(s) 17 57 34_df76c9cf (4)](https://github.com/isaiastec200/image-blur-app/assets/42812115/669cb1b8-40c2-444c-9869-75f967b070f5)
+
+https://github.com/isaiastec200/image-blur-app/assets/42812115/3565e3ca-1d8a-47b0-a43b-c9282f16d043
+
+
+
 
