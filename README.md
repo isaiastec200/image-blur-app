@@ -51,6 +51,13 @@ Silva, P. R. B. - "O objetivo da segmentação é evidenciar a região de intere
 
 https://github.com/isaiastec200/image-blur-app/assets/42812115/3565e3ca-1d8a-47b0-a43b-c9282f16d043
 
+## Créditos
+
+Isaías Rocha Santos
+
+[LinkedIn](https://www.linkedin.com/in/isaias-rocha-7ab972196/)
+
+
 
 
 
