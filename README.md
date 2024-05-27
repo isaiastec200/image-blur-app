@@ -18,7 +18,7 @@ O projeto visa criar um aplicativo em Streamlit que reconhece objetos e pessoas 
 ## Instalação
 Clone o repositório e instale as dependências:
 ```bash
-git clone https://github.com/yourusername/image-blur-app.git
+git clone https://github.com/isaiastec200/image-blur-app.git
 cd image-blur-app
 pip install -r requirements.txt
 ```
